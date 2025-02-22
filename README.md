@@ -16,7 +16,7 @@ For detailed documentation and usage instructions on how to use the ROS Encrypti
 ## Setting up the ROS Encryption Tool:
 
 Go to the latest release and download the archive for your operating system or architecture.  
-For a smoother experience, use the [download page](https://sas-roset.github.io/downloads.html).
+For a smoother experience, use the [download page](https://sas-roset.github.io/download.html).
 
 > _No dependencies are required to run the ROS Encryption Tool._  
 > _The executables are designed to run out of the box, making them portable and easy to use without installation._
