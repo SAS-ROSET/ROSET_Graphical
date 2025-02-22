@@ -6,6 +6,8 @@ ROS Encryption Tool is a user-friendly encryption application that provides full
 
 For a more visually appealing and easier-to-navigate experience, visit the [SAS-ROSET official website](https://sas-roset.github.io).
 
+**License: [GNU GPLv3](LICENSE)**
+
 <br/>
 
 ## **Documentation and Usage Guide**:
