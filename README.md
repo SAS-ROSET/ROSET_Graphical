@@ -4,6 +4,13 @@ ROS Encryption Tool is a user-friendly encryption application that provides full
 
 For a more visually appealing and easier-to-navigate experience, visit the [SAS-ROSET official website](https://sas-roset.github.io).
 
+<br/>
+
+## **Documentation and Usage Guide**:
+For detailed documentation and usage instructions on how to use the ROS Encryption Tool, visit the [Documentation and Usage Guide](https://sas-roset.github.io/docs/graphical/graphical.html).
+
+<br/>
+
 ## Setting up the ROS Encryption Tool:
 
 Go to the latest release and download the archive for your operating system or architecture.  
@@ -12,6 +19,7 @@ For a smoother experience, use the [download page](https://sas-roset.github.io/d
 > _No dependencies are required to run the ROS Encryption Tool._  
 > _The executables are designed to run out of the box, making them portable and easy to use without installation._
 
+<br/>
 
 ### Instructions for *Windows*:
 1. Extract the `.zip` file
@@ -20,6 +28,8 @@ For a smoother experience, use the [download page](https://sas-roset.github.io/d
 
 > Note: If you see any prompts preventing you from running the files, click "Run Anyway."
 > The SAS-ROSET project is free from any malicious code. We prioritize your security and privacy.
+
+<br/>
 
 ### Instructions for *Linux*:
 1. Extract the `.zip` file
