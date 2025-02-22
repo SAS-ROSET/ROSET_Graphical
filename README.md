@@ -1,5 +1,7 @@
 # ROS Encryption Tool (ROSET Graphical)
 
+<img src="https://sas-roset.github.io/imgs/SAS-ROSET_GUI_1.png"/>
+
 ROS Encryption Tool is a user-friendly encryption application that provides full access to the SAS-RCS and SAS-RBS encryption algorithms. It supports both text and file encryption, including multi-threaded, parallel, multi-point file encryption. Key management is also simplified.
 
 For a more visually appealing and easier-to-navigate experience, visit the [SAS-ROSET official website](https://sas-roset.github.io).
