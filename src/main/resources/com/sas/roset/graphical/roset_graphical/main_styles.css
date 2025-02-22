@@ -1,0 +1,656 @@
+/* SAS-ROSET-Graphical CSS Dark Theme */
+
+/*
+    +-----------------------------------------------------------------------+
+    | ROSET Graphical (ROS Encryption Tool) -                               |
+    | The official encryption tool providing access to the                  |
+    | SAS-RCS/RBS Encryption Algorithms.                                    |
+    |                                                                       |
+    | Copyright (C) 2025-Present Saaiq Abdulla Saeed (saaiqSAS)             |
+    |                                                                       |
+    | This program is free software: you can redistribute it and/or modify  |
+    | it under the terms of the GNU General Public License as published by  |
+    | the Free Software Foundation, either version 3 of the License, or     |
+    | (at your option) any later version.                                   |
+    |                                                                       |
+    | This program is distributed in the hope that it will be useful,       |
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of        |
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          |
+    | GNU General Public License for more details.                          |
+    |                                                                       |
+    | You should have received a copy of the GNU General Public License     |
+    | along with this program. If not, see <https://www.gnu.org/licenses/>. |
+    |                                                                       |
+    | For support or to contact the author:                                 |
+    | Email: sas.roset@gmail.com                                            |
+    +-----------------------------------------------------------------------+
+*/
+
+@font-face {
+    font-family: "Regular";
+    src: url("Roboto-Regular.ttf");
+}
+
+.normal_text { /* styleClass="normal_text" */
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.bold_text { /* styleClass="bold_text" */
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.background_main {
+    -fx-background-color: #171717;
+    -fx-border-width: 1;
+        -fx-border-color: #303030;
+}
+
+.main_tabs {
+    -fx-background-color: #171717;
+    -fx-text-fill: #999999;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 18px;
+}
+
+.main_tabs: hover {
+    -fx-background-color: #171717;
+    -fx-text-fill: #dddddd;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 18px;
+}
+
+.main_tabs_active {
+    -fx-background-color: #171717;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.layer1_box {
+    -fx-background-color: #242424;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: #333333;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 24, 0, 0, 6);
+}
+
+.layer1_box_selected {
+    -fx-background-color: #242424;
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-color: #0067e6;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 24, 0, 0, 6);
+}
+
+.layer1_box_header {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #333333;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+
+}
+
+.layer1_box_header_background {
+    -fx-background-color: #363636;
+    -fx-background-radius: 15 15 0 0;
+    -fx-border-radius: 15 15 0 0;
+    -fx-border-width: 1;
+    -fx-border-color: #363636;
+    -fx-border-radius: 15 15 0 0;
+}
+
+.layer1_box_header_background_selected {
+    -fx-background-color: #0067e6;
+    -fx-background-radius: 15 15 0 0;
+    -fx-border-radius: 15 15 0 0;
+    -fx-border-width: 1;
+    -fx-border-color: #0067e6;
+    -fx-border-radius: 15 15 0 0;
+}
+
+.layer2_box {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 10;
+}
+
+/* ---------- Main Window Controls ---------- */
+.window_control {
+    -fx-text-fill: #ffffff;
+    -fx-background-color:  #171717;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+}
+
+.window_control: hover {
+    -fx-text-fill: #0067e6;
+    -fx-background-color:  #171717;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+}
+
+/* ---------- Main Window Icons ---------- */
+.window_top_icon {
+    -fx-text-fill: #ffffff;
+    -fx-background-color:  #171717;
+    -fx-border-width: 1;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+}
+
+/* ---------- Normal Buttons ---------- */
+.disabled_button {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: #353535;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #353535;
+     -fx-padding: 4px 5px;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.blue_button {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: #0067e6;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #0067e6;
+    -fx-padding: 4px 5px;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.blue_button: hover {
+    -fx-background-color: #0067e6;
+    -fx-border-width: 1;
+    -fx-border-color: #0067e6;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #1a1a1a;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.white_button {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #aaaaaa;
+     -fx-padding: 4px 5px;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.white_button: hover {
+    -fx-background-color: #aaaaaa;
+    -fx-border-width: 1;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #242424;
+    -fx-font-family: "Regular";
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+/* ---------- Radio Buttons (Rect)---------- */
+.radio_button_rect_unselected {
+    -fx-background-color: #323232;
+    -fx-background-radius: 100;
+    -fx-text-fill: #bbbbbb;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.radio_button_rect_unselected: hover {
+    -fx-background-color: #323232;
+    -fx-background-radius: 100;
+    -fx-text-fill: #bbbbbb;
+    -fx-border-width: 1;
+    -fx-border-radius: 100;
+    -fx-border-color: #bbbbbb;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.radio_button_rect_selected {
+    -fx-background-color: #323232;
+    -fx-background-radius: 100;
+    -fx-text-fill: #bbbbbb;
+    -fx-border-width: 1;
+    -fx-border-radius: 100;
+    -fx-border-color: #0067e6;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+
+      /*-fx-effect: dropshadow(gaussian, rgba(0, 103, 230, 0.7), 10, 0, 0, 0),
+                    innershadow(gaussian, rgba(0, 103, 230, 0.7), 10, 0, 0, 0);*/
+}
+
+.radio_button_rect_disabled {
+    -fx-background-color: #424242;
+    -fx-background-radius: 100;
+    -fx-text-fill: #888888;
+    -fx-alignment: center;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+/* ---------- Radio Buttons (Circle)---------- */
+.radio_button_unselected {
+    -fx-background-radius: 100;
+    -fx-background-color: #1a1a1a;
+    -fx-border-width: 2;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 100;
+}
+
+.radio_button_unselected: hover {
+    -fx-background-radius: 100;
+    -fx-background-color: #999999;
+    -fx-border-width: 2;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 100;
+}
+
+.radio_button_selected {
+    -fx-background-radius: 100;
+    -fx-background-color: #0067e6;
+    -fx-border-width: 2;
+    -fx-border-color: #0067e6;
+    -fx-border-radius: 100;
+}
+
+/* ---------- Check Box ---------- */
+.check_box_unselected {
+    -fx-background-color: #242424;
+    -fx-border-width: 2;
+    -fx-border-color: #aaaaaa;
+    -fx-graphic: none;
+}
+
+.check_box_unselected: hover {
+    -fx-background-color: #999999;
+    -fx-border-width: 2;
+    -fx-border-color: #aaaaaa;
+}
+
+.check_box_selected {
+    -fx-background-color: #0067e6;
+    -fx-border-width: 2;
+    -fx-border-color: #0067e6;
+    -fx-graphic: url(CHECK_ICON.png);
+    -fx-content-display: center;
+}
+
+/* ---------- Table ---------- */
+.table {
+    -fx-background-color: transparent;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 12px;
+}
+
+.table .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table .corner {
+    -fx-background-color: transparent;
+}
+
+.table .column-header-background{
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 7px 0px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #aaaaaa;
+}
+
+.table .column-header {
+    -fx-background-color: transparent;
+    -fx-text-background-color: #aaaaaa;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 8 0 4 10px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell: odd{
+    -fx-background-color: #232323;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-background-color: #ffffff;
+}
+
+.table-row-cell: even{
+    -fx-background-color: #282828;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-background-color: #ffffff;
+}
+
+.table-row-cell: selected {
+    -fx-background-color: #0067e6;
+}
+
+.table-row-cell: hover {
+    -fx-background-color: #aaaaaa;
+    -fx-text-background-color: #1a1a1a;
+}
+
+.table-row-cell:hover:selected{
+    -fx-background-color: #0067e6;
+    -fx-text-background-color: #ffffff;
+}
+
+.table-row-cell:empty{
+    -fx-background-color: #1a1a1a;
+    -fx-text-background-color: #ffffff;
+}
+
+.table-row-cell:hover:empty{
+    -fx-background-color: #1a1a1a;
+    -fx-text-background-color: #ffffff;
+}
+
+.table.virtual-flow .scroll-bar:vertical,
+.table .virtual-flow .scroll-bar:vertical .track,
+.table .virtual-flow .scroll-bar:vertical .track-background,
+.table .virtual-flow .scroll-bar:horizontal,
+.table .virtual-flow .scroll-bar:horizontal .track,
+.table .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: #1a1a1a;
+}
+
+.table .virtual-flow .scroll-bar .increment-button,
+.table.virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+    -fx-visibility: none;
+}
+
+.table .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  #323232;
+}
+
+.table .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  #323232;
+}
+
+/* ---------- Text Area (Editable) ---------- */
+.text-area-editable {
+    -fx-control-inner-background: #1a1a1a;
+    -fx-background-color:  #1a1a1a;
+    -fx-text-fill: #ffffff;
+    -fx-border-width: 1;
+    -fx-border-color: #1a1a1a;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.text-area-editable:focused {
+    -fx-control-inner-background: #1a1a1a;
+    -fx-background-color:  #1a1a1a;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+
+    -fx-border-width: 1;
+    -fx-border-color: #0067e6;
+
+}
+
+.text-area-editable .content {
+    -fx-background-color:  #1a1a1a;
+    -fx-background-radius: 0 ;
+}
+
+.text-area-editable .corner {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-editable .scroll-bar:vertical {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-editable .scroll-bar:vertical .track {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-editable .scroll-bar:vertical .thumb {
+    -fx-background-color: #323232;
+    -fx-cursor: hand;
+}
+
+.text-area-editable .scroll-bar:horizontal {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-editable .scroll-bar:horizontal .track {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-editable .scroll-bar:horizontal .thumb {
+    -fx-background-color: #323232;
+    -fx-cursor: hand;
+}
+
+.text-area-editable .scroll-bar:vertical .increment-button,
+.text-area-editable .scroll-bar:vertical .decrement-button,
+.text-area-editable .scroll-bar:horizontal .increment-button,
+.text-area-editable .scroll-bar:horizontal .decrement-button {
+    -fx-opacity: 0 !important;
+    -fx-background-color: #1a1a1a !important;
+    -fx-visibility: none;
+}
+
+/* ---------- Text Area (Non-Editable) ---------- */
+.text-area-non-editable {
+    -fx-control-inner-background: #1a1a1a;
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: #ffffff;
+    -fx-border-width: 1;
+    -fx-border-color: #1a1a1a;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.text-area-non-editable:focused {
+    -fx-control-inner-background: #1a1a1a;
+        -fx-background-color:  #1a1a1a;
+        -fx-text-fill: #ffffff;
+        -fx-border-width: 1;
+        -fx-border-color: #1a1a1a;
+        -fx-font-family: "Regular";
+        -fx-font-weight: normal;
+        -fx-font-size: 13px;
+}
+
+.text-area-non-editable .content {
+    -fx-background-color:  #1a1a1a;
+    -fx-background-radius: 0 ;
+}
+
+.text-area-non-editable .corner {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-non-editable .scroll-bar:vertical {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-non-editable .scroll-bar:vertical .track {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-non-editable .scroll-bar:vertical .thumb {
+    -fx-background-color: #323232;
+    -fx-cursor: hand;
+}
+
+.text-area-non-editable .scroll-bar:horizontal {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-non-editable .scroll-bar:horizontal .track {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-non-editable .scroll-bar:horizontal .thumb {
+    -fx-background-color: #323232;
+    -fx-cursor: hand;
+}
+
+.text-area-non-editable .scroll-bar:vertical .increment-button,
+.text-area-non-editable .scroll-bar:vertical .decrement-button,
+.text-area-non-editable .scroll-bar:horizontal .increment-button,
+.text-area-non-editable .scroll-bar:horizontal .decrement-button {
+    -fx-opacity: 0 !important;
+    -fx-background-color: #1a1a1a !important;
+    -fx-visibility: none;
+}
+
+/* ---------- Paragraph ----------- */
+.text-area-para {
+    -fx-control-inner-background: #171717;
+    -fx-background-color: #171717;
+    -fx-text-fill: #aaaaaa;
+    -fx-border-width: 0;
+    -fx-border-color: #171717;
+    -fx-wrap-text: true;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.text-area-para  .content {
+    -fx-background-color:  #171717;
+    -fx-background-radius: 0 ;
+}
+
+.text-area-para .corner {
+    -fx-background-color: #171717;
+}
+
+.text-area-para .scroll-bar:vertical {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-para .scroll-bar:vertical .track {
+    -fx-background-color: #1a1a1a;
+}
+
+.text-area-para .scroll-bar:vertical .thumb {
+    -fx-background-color: #323232;
+    -fx-cursor: hand;
+}
+
+.text-area-para .scroll-bar:vertical .increment-button,
+.text-area-para .scroll-bar:vertical .decrement-button,
+.text-area-para .scroll-bar:horizontal .increment-button,
+.text-area-para .scroll-bar:horizontal .decrement-button {
+    -fx-opacity: 0 !important;
+    -fx-background-color: #1a1a1a !important;
+    -fx-visibility: none;
+}
+
+/* ---------- Input Field (TextField) ---------- */
+.input-field {
+     -fx-background-color: transparent;
+     -fx-background-radius: 8;
+     -fx-text-fill: #aaaaaa;
+     -fx-border-width: 2;
+     -fx-border-color: #323232;
+     -fx-border-radius: 8;
+     -fx-font-family: "Regular";
+     -fx-font-weight: normal;
+     -fx-font-size: 13px;
+     -fx-max-height: 25px;
+     -fx-pref-height: 25px;
+     -fx-padding: 0 10px;
+}
+
+.input-field-non-editable {
+     -fx-background-color: transparent;
+     -fx-background-radius: 8;
+     -fx-text-fill: #aaaaaa;
+     -fx-prompt-text-fill: #505050;
+     -fx-border-width: 2;
+     -fx-border-color: #323232;
+     -fx-border-radius: 8;
+     -fx-cursor: default;
+     -fx-font-family: "Regular";
+     -fx-font-weight: normal;
+     -fx-font-size: 13px;
+}
+
+.input-field: focused {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8;
+    -fx-text-fill: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-border-color: #0067e6;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.input-field: hover {
+    -fx-cursor: text;
+}
+
+.input-field-error {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8;
+    -fx-text-fill: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-border-color: #e43737;
+    -fx-font-family: "Regular";
+    -fx-font-weight: normal;
+    -fx-font-size: 13px;
+}
+
+.input-field-error: hover {
+    -fx-cursor: text;
+}

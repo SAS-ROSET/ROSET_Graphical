@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ROSET_Graphical:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ROSET_Graphical_jar</output-path>
+    <root id="archive" name="ROSET_Graphical.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="ROSET_Graphical" />
+    </root>
+  </artifact>
+</component>
