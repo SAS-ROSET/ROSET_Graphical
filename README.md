@@ -71,49 +71,32 @@ For a smoother experience, use the [download page](https://sas-roset.github.io/d
 ### **Instructions for *MacOS***:
 
 1. Open Terminal:
-   - If you're already in the directory containing `roset.app` (i.e., inside `ROSET_Graphical_vX.X.X_MacOS_x86_64`), you can directly open Terminal in that directory.
-   - Otherwise, open **Terminal** and navigate to the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory using the `cd` (change directory) command:
+   - Navigate to the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory using the command:
+     
+     (Replace `/path/to/` with the actual path, e.g., `Downloads/ROSET_Graphical_vX.X.X_MacOS_x86_64`)
 
      ```bash
      cd /path/to/ROSET_Graphical_vX.X.X_MacOS_x86_64
      ```
 
-     *(Replace `/path/to/ROSET_Graphical_vX.X.X_MacOS_x86_64` with the actual path to the folder.)*
-
-   - If you're unsure of the directory, you can find the full path by running `pwd` (print working directory) in Terminal.
-   - Ensure that you're in the same directory as `roset.app` when running commands in step 2.
-
-<br/>
-
 2. Give Execution Permission:
-   - Run the following commands while in the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory to make `roset.app` executable:
+   - Run the following commands in the terminal once you are in the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory:
+     
+     [After the first command you may have to enter your login password]
 
-     - First, **remove the quarantine attribute** (to bypass macOS security warnings):
-       
-       ```bash
-       sudo xattr -rd com.apple.quarantine ../
-       ```
-
-       *(This command removes the quarantine flag from the `roset.app` file and other program files so that macOS doesn't block it due to being downloaded from the internet. Do note that you may need to enter your login password after entering the command above when prompted for `sudo` permissions.)*
-
-     - Then, **grant execute permissions** to the `roset.app` file:
-
-       ```bash
-       chmod +x roset.app
-       ```
-
-       *(This command ensures the `.app` file has execute permission.)*
-
-<br/>
+     ```bash
+     sudo xattr -rd com.apple.quarantine ../
+     chmod -R +x roset.app
+     ```
+> The commands above will remove the quarantine flag from the program files so that macOS doesn't block it due to being downloaded from the internet, and then give execution permission to `roset.app`
 
 3. Open the Application:
-   - After the above steps, **double-click** on the `roset.app` file to open it.
- 
-<br/>
+   - Double-click on `roset.app` to open it.
 
-4. Grant Permissions (if macOS asks):
-   - If macOS displays a message asking for permissions (e.g., "Developer not verified"), click **Allow** or **Open** to grant the necessary permissions.
-   - You may also need to go to **System Preferences > Security & Privacy** and click **Open Anyway** if the app is blocked.
+4. Grant Permissions (if prompted):
+   - Click Allow or Open if macOS asks for permission.
+   - If blocked, go to **System Preferences > Security & Privacy > Open Anyway.**
+
 
 
 <br/>
