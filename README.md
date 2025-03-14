@@ -65,3 +65,20 @@ For a smoother experience, use the [download page](https://sas-roset.github.io/d
 10. To run ROSET, double click on the newly created desktop shortcut.
 
 > Note: If the shortcut doesn't launch, right-click it and select "Allow Launching" or a similar option.
+
+<br/>
+
+### **Instructions for *MacOS***:
+1. Extract the `.zip` file
+2. Give execution permission to `roset.app`:
+
+    ```bash
+   chmod -R +x roset.app
+    ```
+4. To run, double-click `roset.app`:
+
+> Note: If macOS asks for permissions, click Allow or Open to grant the necessary permissions.
+
+> Alternatively, you can also follow the *Linux* instructions to run the `roset.sh`
+
+<br/>
