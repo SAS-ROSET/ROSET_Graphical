@@ -69,16 +69,51 @@ For a smoother experience, use the [download page](https://sas-roset.github.io/d
 <br/>
 
 ### **Instructions for *MacOS***:
-1. Extract the `.zip` file
-2. Give execution permission to `roset.app`:
 
-    ```bash
-   chmod -R +x roset.app
-    ```
-4. To run, double-click `roset.app`:
+1. Open Terminal:
+   - If you're already in the directory containing `roset.app` (i.e., inside `ROSET_Graphical_vX.X.X_MacOS_x86_64`), you can directly open Terminal in that directory.
+   - Otherwise, open **Terminal** and navigate to the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory using the `cd` (change directory) command:
 
-> Note: If macOS asks for permissions, click Allow or Open to grant the necessary permissions.
+     ```bash
+     cd /path/to/ROSET_Graphical_vX.X.X_MacOS_x86_64
+     ```
 
-> Alternatively, you can also follow the *Linux* instructions to run the `roset.sh`
+     *(Replace `/path/to/ROSET_Graphical_vX.X.X_MacOS_x86_64` with the actual path to the folder.)*
+
+   - If you're unsure of the directory, you can find the full path by running `pwd` (print working directory) in Terminal.
+   - Ensure that you're in the same directory as `roset.app` when running commands in step 2.
+
+<br/>
+
+2. Give Execution Permission:
+   - Run the following commands while in the `ROSET_Graphical_vX.X.X_MacOS_x86_64` directory to make `roset.app` executable:
+
+     - First, **remove the quarantine attribute** (to bypass macOS security warnings):
+       
+       ```bash
+       sudo xattr -rd com.apple.quarantine ../
+       ```
+
+       *(This command removes the quarantine flag from the `roset.app` file and other program files so that macOS doesn't block it due to being downloaded from the internet. Do note that you may need to enter your login password after entering the command above when prompted for `sudo` permissions.)*
+
+     - Then, **grant execute permissions** to the `roset.app` file:
+
+       ```bash
+       chmod +x roset.app
+       ```
+
+       *(This command ensures the `.app` file has execute permission.)*
+
+<br/>
+
+3. Open the Application:
+   - After the above steps, **double-click** on the `roset.app` file to open it.
+ 
+<br/>
+
+4. Grant Permissions (if macOS asks):
+   - If macOS displays a message asking for permissions (e.g., "Developer not verified"), click **Allow** or **Open** to grant the necessary permissions.
+   - You may also need to go to **System Preferences > Security & Privacy** and click **Open Anyway** if the app is blocked.
+
 
 <br/>
