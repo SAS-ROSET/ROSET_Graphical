@@ -16,6 +16,10 @@ For a more visually appealing and easier-to-navigate experience, visit the [SAS-
 
 <br/>
 
+**NOTE: To use the AES-256 algorithm with a similiar UI and password support, please visit [PurpleKrypt](https://purplekrypt.github.io)**
+
+<br/>
+
 ## **Documentation and Usage Guide**:
 For detailed documentation and usage instructions on how to use the ROS Encryption Tool, visit the [Documentation and Usage Guide](https://sas-roset.github.io/docs/graphical/graphical.html).
 
